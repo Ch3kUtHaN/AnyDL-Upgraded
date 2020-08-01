@@ -1,14 +1,8 @@
 class Translation(object):
-    START_TEXT = """This is a Multi Purpose bot created by @prgofficial.
-    
-    This Bot is exclusively made for мσνιєѕσиℓу™ Team !
-    
-    Channel Link : https://t.me/joinchat/AAAAAEw1pO1bBX6ylAb0hQ
-    
-© @prgofficial"""
+    START_TEXT = """Hi {}\n\nSend me any media file, I'll generate external link for the file. You can choose any host from the commands external file hosts that I support."""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "Contact @prgofficial for plans"
+    UPGRADE_TEXT = " "
     
     FORMAT_SELECTION = "Got the file. \n now sent me a image if you want to set as custom thumbnail \n and then click the needed format from the below buttons."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
@@ -18,7 +12,7 @@ URL | filename | username | password"""
     UPLOAD_START = "Uploading...."
     RCHD_BOT_API_LIMIT = "Size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Mission Accomplished!!! Join @moviesonlybotupdates for any help."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "Mission Accomplished!!!"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. And \nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription.Contact @prgofficial"
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription."
@@ -34,23 +28,8 @@ URL | filename | username | password"""
 --------
 Telegram ID: <code>{}</code>
 Plan name: AnyDl
-Expiry: Ask to @prgofficial"""
-    HELP_USER = """There are multiple things I can do:
-
-👉 All Supported Video / File Formats, with custom file name and custom thumbnail support
-👉 Upload as file from any HTTP link, with custom thumbnail support
-👉 Convert To Streamable Video, any Telegram file
-👉 Convert To Telegram Audio, the media sent as Telegram Documents
-👉 ReName Telegram files, with custom thumbnail support
-👉 Generate Custom Thumbnail by sending two photos in a Media Album
-👉 Trim large videos, and Take Screenshots of Telegram media files.
-👉 Extract compressed Telegram media
-👉 Get a Telegram sticker as a Telegram downloadable media
-👉 Get Direct Download link of any media
-👉 Extract subtitle from any direct links
---------
-Contact @prgofficial for more info."""
-   
+Expiry: i don't know"""
+    HELP_USER = """no on gona help you"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /rename with custom thumbnail"
@@ -64,7 +43,7 @@ Contact @prgofficial for more info."""
     REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Reply /generatecustomthumbnail to a media album, to generate custom thumbail"
     ERR_ONLY_TWO_MEDIA_IN_ALBUM = "Media Album should contain only two photos. Please re-send the media album, and then try again, or send only two photos in an album."
     INVALID_UPLOAD_BOT_URL_FORMAT = "URL format is incorrect. make sure your url starts with either http:// or https://. You can set custom file name using the format link | file_name.extension"
-    ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me or contact @prgofficial."
+    ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me"
     FF_MPEG_RO_BOT_AD_VER_TISE_MENT = "https://t.me/joinchat/AAAAAEw1pO1bBX6ylAb0hQ"
     EXTRACT_ZIP_INTRO_ONE = "Send a compressed file first, Then reply /unzip command to the file."
     EXTRACT_ZIP_INTRO_THREE = "Analyzing received file. ⚠️ This might take some time. Please be patient. "
